@@ -5,7 +5,7 @@ print("Hi Github Users!")
 
 def obj_lister(df):
     """
-    This function take in a dataframe and returns a list of columns that
+    This function takes in a dataframe and returns a list of columns that
     contain objects
     """
     obj_list = []
@@ -21,7 +21,7 @@ class CleanDataFrame:
 
     def NaN_cleaning(self):
         """
-        This function thakes in a dataframe and cleans nulls by replacing with
+        This function takes in a dataframe and cleans nulls by replacing with
         text. It returns a cleaned dataframe.
         """
         df = df.replace(np.nan, 'unknown')
