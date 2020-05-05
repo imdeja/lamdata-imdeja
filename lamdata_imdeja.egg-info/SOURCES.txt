@@ -1,8 +1,0 @@
-README.md
-setup.py
-lamdata/__init__.py
-lamdata/deja.py
-lamdata_imdeja.egg-info/PKG-INFO
-lamdata_imdeja.egg-info/SOURCES.txt
-lamdata_imdeja.egg-info/dependency_links.txt
-lamdata_imdeja.egg-info/top_level.txt
