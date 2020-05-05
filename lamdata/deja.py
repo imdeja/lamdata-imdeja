@@ -13,13 +13,18 @@ def obj_lister(df):
         obj_list.append(col)
     return obj_list
 
+#Adds a new class called "CleanDataFrame"
+class CleanDataFrame:
+    def __init__(self, df):
+        self.df = df
 
-def NaN_cleaning(df):
-    """
-    This function thakes in a dataframe and cleans nulls by replacing with
-    text. It returns a cleaned dataframe.
-    """
-    df = df.replace(np.nan, 'unknown')
-    return df.reset_index(drop=True)
+    def NaN_cleaning(self):
+        """
+        This function thakes in a dataframe and cleans nulls by replacing with
+        text. It returns a cleaned dataframe.
+        """
+        df = df.replace(np.nan, 'unknown')
+        return df.reset_index(drop=True)
+
 
 print('Installed!')
