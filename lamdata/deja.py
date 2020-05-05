@@ -13,7 +13,8 @@ def obj_lister(df):
         obj_list.append(col)
     return obj_list
 
-#Adds a new class called "CleanDataFrame"
+
+# Adds a new class called "CleanDataFrame"
 class CleanDataFrame:
     def __init__(self, df):
         self.df = df
