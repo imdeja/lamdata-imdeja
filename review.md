@@ -1,0 +1,3 @@
+Overall looks pretty good. Code is clean, contains docstring, and is PEP8 compliant.
+One thing would be using "df" within the class constructor and using it in the function above. My IDE flags it, and I believe its best practice to try to use different names when possible, as to not create any potential inheritance issues by mistake.
+df = df.replace(np.nan, 'unknown') should be df = self.df.replace(np.nan, 'unknown'), which I included in the pull request.

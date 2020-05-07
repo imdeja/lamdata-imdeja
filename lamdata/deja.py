@@ -24,7 +24,7 @@ class CleanDataFrame:
         This function takes in a dataframe and cleans nulls by replacing with
         text. It returns a cleaned dataframe.
         """
-        df = df.replace(np.nan, 'unknown')
+        df = self.df.replace(np.nan, 'unknown')
         return df.reset_index(drop=True)
 
 
