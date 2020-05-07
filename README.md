@@ -5,7 +5,7 @@
 Installation is as simple as 
 "pip install -i https://test.pypi.org/simple/ lamdata-deja==1.1" 
 After installing you must import the function to you python environment. You can do this by simply typing: 
-"from lamdata.deja import obj_lister, NaN_cleaning"
+"from lamdata.deja import obj_lister, NaN_cleaning".
 
 ## Usage
 
